@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: lightcyan;
+	font-size: 1.5rem;
+	font-family: 'Roboto', sans-serif;
+	background-image: url('../Assets/entrevista.jpg');
+	background-repeat: repeat-x;
+	background-position: center;	
+	background-attachment: fixed;
+	background-size: cover;
+}
+.bold{
+	font-weight: bold;
+}
+#containerGrid{
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: 70px auto 70px;
+}
+
+.containerFlex{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.containerFlex div{
+	font-weight: 500;
+	font-size: 1.4rem;
+	padding: 10px;
+}
+
+.containerFlex p{
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	padding: 10px;
+}
+
+.containerFlex ul li{
+	display: flex;
+	padding: 10px;
+}
+
+#header{
+	width: 100%;
+	height: 70px;
+	background-color:#222222;
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 600;
+	text-align: center;
+}
+#header p{
+	color: #928e88;
+	font-size: 1.3rem;
+}
+
+h1{
+	color: #3d393e;
+	font-size: 40 px;
+	font-weight: 600;
+	text-align: center;
+}
+
+
+/*Box Model*/
+
+*{
+	margin: 0%;
+	padding: 0%;
+}
+
+.Menu li{
+	display: inline-block;
+	margin: 0;
+	width: 10%;
+	height: auto;
+}
+
+.Menu li a{
+	color: #e8e3da;
+	font-size: 1.1rem;
+}
+
+
+#footer{
+	width: 100%;
+	height: auto;
+	background-color: #222222;
+	color: rgba(225, 220, 212, 1);
+	font-size: 1.3rem;
+	object-position: bottom;
+	bottom: 0;
+    margin: 0 auto;
+}
+
+
+@media all and (max-width: 768px){
+	.containerFlex ul li div{
+		font-size: 0.7rem;
+	}
+}
