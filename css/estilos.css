@@ -32,11 +32,13 @@ body{
 }
 
 .banner img{
-	width: 60%;
+	width: 55%;
 	animation-name: zoom;
 	animation-iteration-count: 1;
 	animation-timing-function: linear;
-	animation-duration: 5s;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+	animation-delay: 0;
 }
 
 .libros:hover{
@@ -133,11 +135,11 @@ h1{
     padding-left: 0;
     margin-bottom: 0;
 }
-.overflow{
+/*.overflow{
 	width: 500px;
 	background-color: white;
 	overflow-x: scroll;
-}
+}*/
 .descrip{
 	background-color: steelblue;
 }
